@@ -11,7 +11,7 @@ monkey.patch_all()
 def main():
     # 使用sys模块可以提高代码的通用性，方便在命令行执行时，指定下载的参数
     # filename = sys.argv[1]
-    filename = "test.mp4"
+    filename = "test.png"
     # 假定下载的资源都存在当前目录下的mode文件夹内
     src = "./mode/"
     # 判断文件是否存在
